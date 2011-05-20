@@ -1,0 +1,67 @@
+Basics
+
+Swiping
+
+Four finger swipe up to see your desktop.
+Four finger swipe down to see all of your open windows, that aren't open.
+
+Switching Spaces
+
+[control] + [left or right arrow key]
+
+Minimizing/Hiding
+
+On a mac you can hide and minimize. Hiding hides the application, you can show it again by alt tabbing to it. Minimizing puts an application to the bottom of a four finger swipe down. You cannot alt tab to a minimized tab. You either have to find it on your bar near the right or four finger swipe down and open it from there.
+
+Alt 'Tilding'
+
+Alt-Tabbbing only switches between distinct applications. If, for example, you have multiple firefox windows open, to switch between them you would use [alt] + [grave] (the key above tab ~).
+
+Ejecting
+
+To eject a disc either HOLD down the eject button or drag the CD (which should be on your desktop) into the trash.
+
+Preview Files
+
+To quickly look at a file without opening it and launching the corresponding program to open it, press [space] while the file is selected.
+
+
+
+
+Shortcuts
+
+Opening any application quickly
+
+Use spot light. [command] + [space] then type in the name of the application (or part of it) and hit enter.
+
+
+Quickly opening a Finder (Explorer Window)
+
+Alt tab to finder and press [command]+[n]
+
+
+Opening the Properties window for a File
+
+Select a file and press [command] + [i]
+
+
+
+Very Useful and Pretty Much Necessary Addons
+
+Growl
+http://growl.info/
+
+A pop-up window that displays events. Almost every program uses, you'll probably end up installing it from something else.
+
+
+Jit-Touch
+http://www.jitouch.com/index.php?page=jitouch
+
+Adds a lot of extra finger gestures, mostly useful for firefox and opening/closing tabs
+
+
+Hyper-Dock
+http://hyperdock.bahoom.de/
+
+This adds the ability to quickly resize windows faster. It also lets you move windows by placing your mouse over the window and holding down [control] + [alt] and then moving the mouse. You can resize windows by holding [shift]+[control]+[alt]. If you press [control]+[alt]+[arrow key] it pops the window to a side.
+
