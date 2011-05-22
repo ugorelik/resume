@@ -8,8 +8,6 @@
 	<title><%= @title %></title>
 	<meta name="description" content="">
 	<meta name="author" content="">
-
-
 	<link href="/css/style.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -17,17 +15,34 @@
 <body>
 
 
-	<header>
-		<h1 id="title">Welcome to Uri</h1>
-	</header>
+<header>
+<h1 id="title"><a href="/">Welcome to Uri</a></h1>
+
+<%= erb :_navigation %>
+</header>
 
 
 
-	<div id="main-container">
-		<%= yield%>
-	</div>
+
+<div id="main-container">
+
+	<% if @header != "" %>
+	<%= "<h1 class='title'>#{@header}</h1>"%>
+	<%end%>
+	
+	<%= yield%>
+</div>
 
 	<footer>
+		<!-- FOOTER -->
+		<div id="footer">
+			
+			<ul>
+				<li><a href="#"><h1>Contact</h1></a></li>
+				<li><a href="http://twitter.com/#!/UriGorelik" target="_blank"><h1>Twitter</h1></a></li>
+			</ul>
+			
+		</div>
 	</footer>
 	
 </body>
