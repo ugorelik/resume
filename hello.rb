@@ -1,8 +1,20 @@
 require 'sinatra'
 
+helpers do
+  
+  
+  def link (name,url)
+    @output = ""
+    @output <<"<p class='link'><a href='http://#{url}' target='_blank'>#{name}</a></p>"
+    @output
+  end
+  
+  
+end
+
+
 get '/' do
   @title = "Uri's Home"
-  @header = "Stuff"
   erb :index
 end
 
@@ -24,6 +36,7 @@ end
 
 get '/portfolio' do
   @title = "Uri's Portfolio"
+  @header = "Coming Soon"
   erb :portfolio
 end
 
@@ -31,3 +44,11 @@ get '/test' do
   @title = "Uri's Portfolio"
   erb :test
 end
+
+
+
+
+
+
+
+

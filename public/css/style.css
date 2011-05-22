@@ -19,9 +19,18 @@ body
 	color:#336699;
 }
 
-a
+p.link
 {
+	text-align:right;
+	margin-bottom:-10px;
+	padding:0;
 }
+
+p
+{
+	line-height:1.2em;
+}
+
 	a:link {color:#e0110e;}      	/* unvisited link */
 	a:visited {color:#e0110e;}  	/* visited link */
 	a:hover {color:#3399ff;}  		/* mouse over link */
@@ -51,13 +60,12 @@ a
 	#navigation
 	{
 		margin-right:0px;
-		display:inline;
+		display:inline-block;
 		position:relative;
-		bottom:25px;
+		top:7px;
 	}
 		#navigation table
 		{
-			display:inline;
 		}
 			#navigation table tr
 			{	
@@ -177,7 +185,8 @@ table.fancy caption {
 		}
 		
 			#footer ul li a
-			{			
+			{		
+				text-decoration:none;	
 			}
 			
 				#footer ul li a h1
