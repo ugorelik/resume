@@ -9,6 +9,17 @@ helpers do
     @output
   end
   
+  def image (name,url)
+    @output = ""
+    @output << "<p>"
+    @output << "<a href='/images/#{url}' target='_blank'>"
+    @output << "<img width='100%' src='/images/#{url}' alt='#{name}' title='#{name}'>"
+    @output << "</a>"
+    @output << "</p>"
+    @output
+  end    
+
+  
   
 end
 
