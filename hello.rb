@@ -29,12 +29,6 @@ get '/' do
   erb :index
 end
 
-get '/mac' do
-  @title = "Windows to Mac"
-  @header = "Coming to Mac from Windows"
-  erb :mac
-end
-
 get '/resume' do
   @title = "Uri's Resume"
   erb :resume
@@ -51,13 +45,23 @@ get '/portfolio' do
   erb :portfolio
 end
 
-get '/test' do
-  @title = "Uri's Portfolio"
-  erb :test
+get '/contact' do
+  @title = "Contact"
+  @header = @title
+  erb :contact
 end
 
+get '/pages' do
+  @title = "Pages"
+  @header = "Pages"
+  erb :pages
+end
 
-
+get '/pages/mac' do
+  @title = "Windows to Mac"
+  @header = "Coming to Mac from Windows"
+  erb :mac
+end
 
 
 
