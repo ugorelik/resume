@@ -9,11 +9,17 @@ helpers do
     @output
   end
   
-  def image (name,url)
+  def image (name,url,size=100,float=nil)
     @output = ""
-    @output << "<p>"
+    
+    if (float.nil?)
+      @output << "<p>"
+    else
+      @output << "<p style=' display:inline;'>"
+    end
+    
     @output << "<a href='/images/#{url}' target='_blank'>"
-    @output << "<img width='100%' src='/images/#{url}' alt='#{name}' title='#{name}'>"
+    @output << "<img width='#{size}%' src='/images/#{url}' alt='#{name}' title='#{name}'>"
     @output << "</a>"
     @output << "</p>"
     @output
@@ -41,7 +47,6 @@ end
 
 get '/portfolio' do
   @title = "Uri's Portfolio"
-  @header = "Coming Soon"
   erb :portfolio
 end
 
