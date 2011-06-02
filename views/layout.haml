@@ -1,0 +1,38 @@
+!!!
+%html{ :lang => "en"}
+  %head
+    == <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    == <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
+    == <meta name="keywords" content="Uri Gorelik Resume" />
+    == <meta name="description" content="Uri's Resume" />
+    == <meta name="author" content="Uri Gorelik" />
+
+    %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}
+    
+    %title=@title
+    
+  %body
+    %header
+      %h1#title
+        %a(href='/')
+          Welcome to Uri
+        
+      =haml :_navigation
+  
+    #main-container
+      -if @header != ""
+        = "<h1 class='title'>#{@header}</h1>"
+      
+      =yield
+    
+    %footer
+      #footer
+        %ul
+        
+          %li
+            %a(href="/contact")
+              %h1 Contact
+              
+          %li
+            %a(href="http://twitter.com/#!/UriGorelik" target="_blank")
+              %h1 Twitter

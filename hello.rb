@@ -1,5 +1,7 @@
 require 'sinatra'
 
+set :markdown, :layout_engine => :haml, :layout => layout
+
 helpers do
   
   
@@ -32,40 +34,40 @@ end
 
 get '/' do
   @title = "Uri's Home"
-  erb :index
+  haml :index
 end
 
 get '/resume' do
   @title = "Uri's Resume"
-  erb :resume
+	haml :resume
 end
 
 get '/projects' do
   @title = "Uri's Projects"
-  erb :projects
+  haml :projects
 end
 
 get '/portfolio' do
   @title = "Uri's Portfolio"
-  erb :portfolio
+  haml :portfolio
 end
 
 get '/contact' do
   @title = "Contact"
   @header = @title
-  erb :contact
+  haml :contact
 end
 
 get '/pages' do
   @title = "Pages"
   @header = "Pages"
-  erb :pages
+  haml :pages
 end
 
 get '/pages/mac' do
   @title = "Windows to Mac"
   @header = "Coming to Mac from Windows"
-  erb :mac
+  haml :mac
 end
 
 
