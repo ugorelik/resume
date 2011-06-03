@@ -11,7 +11,7 @@ helpers do
     @output
   end
   
-  def image (name,url,size=100,float=nil)
+  def image (name,url,size=nil,float=nil)
     @output = ""
     
     if (float.nil?)
@@ -21,7 +21,12 @@ helpers do
     end
     
     @output << "<a href='/images/#{url}' target='_blank'>"
-    @output << "<img width='#{size}%' src='/images/#{url}' alt='#{name}' title='#{name}'>"
+
+		if (size.nil?)
+			@output << "<img src='/images/#{url}' alt='#{name}' title='#{name}'>"
+		else
+			@output << "<img width='#{size}%' src='/images/#{url}' alt='#{name}' title='#{name}'>"
+		end
     @output << "</a>"
     @output << "</p>"
     @output
