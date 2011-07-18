@@ -76,6 +76,12 @@ get '/pages/mac' do
 end
 
 
+get '/pages/asteroids' do
+  @title = "Asteroids!"
+  @header = @title
+  haml :asteroids
+end
+
 
 
 
