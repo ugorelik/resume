@@ -1,0 +1,205 @@
+/*
+Awesome colours
+	Bright Green: 33ff44
+	Nice Blue: 336699
+	*/
+
+
+#main-container
+{
+	width: 600px;
+	margin: 0 auto;
+}
+
+body
+{
+	font-family: helvetica, Arial;
+	font-size: %62.5;
+	background-color:#ffeedd;
+	color:#336699;
+}
+
+p.link
+{
+	text-align:right;
+	margin-bottom:-10px;
+	padding:0;
+}
+
+p
+{
+	line-height:1.2em;
+}
+
+	a:link {color:#e0110e;}      	/* unvisited link */
+	a:visited {color:#e0110e;}  	/* visited link */
+	a:hover {color:#3399ff;}  		/* mouse over link */
+	a:active {color:#3399ff;}  		/* selected link */
+
+#title
+{
+	font-size: 4.6em;
+	color: #001100 !important;
+	text-decoration:none;
+	display:inline;
+}
+
+#title a
+{
+	text-decoration:none;
+}
+
+#title a:link {color:#996633;}      	/* unvisited link */
+#title a:visited {color:#997733;}  	/* visited link */
+#title a:hover {color:#666633;}  		/* mouse over link */
+#title a:active {color:#666633;}  		/* selected link */
+	
+	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+	* 	Navigation
+	* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+	#navigation
+	{
+		margin-right:0px;
+		display:inline-block;
+		position:relative;
+		top:7px;
+	}
+		#navigation table
+		{
+		}
+			#navigation table tr
+			{	
+			}	
+				#navigation table tr td
+				{
+					padding-right:15px;
+					text-decoration: none;
+					font-size:2.1em;
+					line-height:80%;
+				}
+					#navigation table tr td a
+					{
+						text-decoration: none;
+						font-weight:bold;
+					}
+
+	
+p
+{
+	margin-bottom: 30px;
+}
+
+h1
+{
+	color: #999;
+}
+	h1.title
+	{
+		text-align:right; 
+		font-size:3.2em;
+	}
+
+
+h2
+{
+	color :#4499ee;
+}
+
+h3
+{
+	color: #237723;
+}
+
+
+				
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* 	Resume
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.indent
+{
+	text-indent:2.5em;
+}
+
+#resume
+{
+	font-family: "Courier", Arial;
+	position:relative;
+	right:200px;
+}
+
+	#resume p
+	{
+		margin-bottom:0px;
+		line-height:15px;
+	}
+	
+	#resume h2
+	{
+		margin-top:40px;
+	}
+
+	#resume h3
+	{
+		margin-bottom:1px;
+	}
+	
+	
+/* From http://lutrov.com/ 
+*/	
+table.fancy {
+  margin: 1em 1em 1em 0;
+  background: whitesmoke;
+  border-collapse: collapse;
+}
+table.fancy tr:hover {
+   background: lightsteelblue !important;
+}
+table.fancy th, table.fancy td {
+  border: 1px silver solid;
+  padding: 0.2em;
+}
+table.fancy th {
+  background: gainsboro;
+  text-align: left;
+}
+table.fancy caption {
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+
+#footer
+{
+}
+	#footer ul
+	{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	
+		#footer ul li
+		{
+			display:inline;
+			
+		}
+		
+			#footer ul li a
+			{		
+				text-decoration:none;	
+			}
+			
+				#footer ul li a h1
+				{
+					float:left;
+					padding-right:15px;
+					color:#3399ff;
+				}
+
+
+.clear
+{
+	clear:both;
+}
+
+
