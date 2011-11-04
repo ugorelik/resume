@@ -82,6 +82,11 @@ get '/pages/asteroids' do
   haml :asteroids
 end
 
+get '/workterms' do
+  @title = "Work Terms"
+  @header = "Work Terms"
+  haml :workterms
+end
 
 
 

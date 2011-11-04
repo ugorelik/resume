@@ -50,7 +50,7 @@ p
 }
 
 #title a:link {color:#996633;}      	/* unvisited link */
-#title a:visited {color:#997733;}  	/* visited link */
+#title a:visited {color:#997733;}  		/* visited link */
 #title a:hover {color:#666633;}  		/* mouse over link */
 #title a:active {color:#666633;}  		/* selected link */
 	
@@ -145,8 +145,8 @@ h3
 	}
 	
 	
-/* From http://lutrov.com/ 
-*/	
+/** From http://lutrov.com/ 
+ */	
 table.fancy {
   margin: 1em 1em 1em 0;
   background: whitesmoke;
@@ -171,6 +171,7 @@ table.fancy caption {
 
 #footer
 {
+	text-align: center;
 }
 	#footer ul
 	{
