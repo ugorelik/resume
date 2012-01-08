@@ -4,6 +4,9 @@ set :markdown, :layout_engine => :haml, :layout => layout
 
 helpers do
   
+  def tumblr_url
+  	"uricode.tumblr.com/"
+  end
   
   def link (name,url)
     @output = ""
