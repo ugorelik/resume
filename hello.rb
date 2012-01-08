@@ -2,6 +2,11 @@ require 'sinatra'
 
 set :markdown, :layout_engine => :haml, :layout => layout
 
+
+def tumblr_url
+	@tumblr_url = "uricode.tumblr.com"
+end
+
 helpers do
   
   def tumblr_url
