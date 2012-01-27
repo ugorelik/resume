@@ -203,4 +203,14 @@ table.fancy caption {
 	clear:both;
 }
 
+.bold
+{
+	font-weight:bold;
+}
 
+
+.italic_under
+{
+	font-style:italic;
+	text-decoration:underline;
+}
