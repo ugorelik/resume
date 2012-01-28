@@ -1,6 +1,6 @@
 /*
 Awesome colours
-	Bright Green: 33ff44
+	Bright Green: 336699
 	Nice Blue: 336699
 	*/
 
@@ -17,6 +17,13 @@ body
 	font-size: %62.5;
 	background-color:#ffeedd;
 	color:#336699;
+}
+
+header
+{
+	width: 768px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 p.link
@@ -102,12 +109,12 @@ h1
 
 h2
 {
-	color :#4499ee;
+	color: #4499ee;
 }
 
 h3
 {
-	color: #237723;
+	color: #4499ee;
 }
 
 
