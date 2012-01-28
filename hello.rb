@@ -77,17 +77,8 @@ get '/pages' do
   haml :pages
 end
 
-get '/pages/mac' do
-  @title = "Windows to Mac"
-  @header = "Coming to Mac from Windows"
-  haml :mac
-end
-
-
-get '/pages/asteroids' do
-  @title = "Asteroids!"
-  @header = @title
-  haml :asteroids
+get '/pages/:title' do |title|
+	haml title.to_sym
 end
 
 get '/workterms' do
@@ -95,6 +86,10 @@ get '/workterms' do
   @header = "Work Terms"
   haml :workterms
 end
+
+
+
+
 
 
 
