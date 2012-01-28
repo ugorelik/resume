@@ -236,3 +236,10 @@ table.fancy caption {
 	font-style:italic;
 	text-decoration:underline;
 }
+
+hr.thick
+{
+	color: #000;
+	background-color: #000;
+	height: 3px;
+}
