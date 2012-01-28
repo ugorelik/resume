@@ -226,6 +226,10 @@ table.fancy caption {
 	font-weight:bold;
 }
 
+.center
+{
+	text-align: center;
+}
 
 .italic_under
 {

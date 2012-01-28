@@ -1,3 +1,7 @@
+%table
+  %tr
+    %td
+      %a{:href => "#Ruby"} Ruby
 
 :markdown
 
@@ -8,62 +12,111 @@
   I soon talked my friend into writing with me and we wrote into the oblivion. And then, only after two months after JOYBLIND was created we had been accepted as press/media to attend E3. We flew down to LA and reported our hearts out.
 
   Currently I'm taking JOYBLIND to the next level by remaking it using Ruby on Rails.
-= link("JOYBLIND", "joyblind.com")
-= link("JOYBLIND on Rails", "joyblind.heroku.com")
 
+.link
+  %a{:href => "http://joyblind.com"} JOYBLIND
 
-
-
-:markdown
-  -----
-
-  # Stores
-  Stores is a solo project that I started recently. It's another Java based implementation, this time featuring an updater, saving and loading and throttling! What I mean by throttling is that it's focused to be a pacing game. Your first time playing will probably last about a minute or two but the idea is that, hopefully, you'll come back! 
-
-
-= link("Source (Coming soon)", "#")
-
-= link("The Blog", tumblr_url)
-
+%hr
+%h1.title{:title => "Ruby"} Ruby
 
 :markdown
-  -----
 
-  # Project Ditch (Working Title)
-  Project Ditch is a Java text-based game. Kind of a throw back to retro gaming.
-
-  It features a parsing engine that allows for natural (like regular human speech) text to be entered and parsed correctly.
-
-  Future plans include porting the game to mobile platforms such as iOS, Android and Blackberry
-
-= link("Source (Coming soon)", "#")
-
-= link("The Blog", tumblr_url)
-
-
-
+  ## MDNotes
+  
+  **MDNotes** is a Ruby gem I created to help me take notes using markdown. It creates a directory structure in the current path. After some markdown files have been created, they can be "compiled" to *html* and published to *pdf*.
+.link
+  %a{:href => "https://bitbucket.org/ugorelik/mdnotes"} MDNotes
 
 :markdown
-  -----
+  ## urigorelik.info
+  This website uses **sinatra** and **heroku** for deployment. The markdown language used is **haml** with **markdown** for content.
+.link
+  %a{:href => "https://bitbucket.org/ugorelik/resume"} urigorelik.info source
+  
+:markdown
+  ## Euler Project
+  I have also completed the first 25 Euler Problem's using Ruby. Sadly I lost most of it, you're just going to have to take my word for it.
+  
 
-  # The Blob aka Dr. Rhodes
+:markdown
+  ## Scripts
+  ### Misc. Scripts
+  Here are some miscellaneous scripts that I have developed as one timer's or just examples of concepts that interest me. `password.rb` simply checks a password is only different by one character. `SoftwareDownloader.rb` performs a google "*I'm Feeling Lucky*" search on a list of given items and adds the term 'download' to the query. This results in a browser opening several download pages. `true_random.rb` uses [Random.org](http://random.org) to pull random numbers.
+  
+  I do not own `unary.rb` it is just there for reference.
+  ### JOYBLIND Scripts
+  This is a simple suite that I use to speed up certain tasks for posting content on JOYBLIND. It formats time, grabs sizes of files in bytes, creates a list of tags, pulls files from the server, formats links and more!
+
+.link
+  %a{:href => "https://bitbucket.org/ugorelik/useful-scripts/"} Misc. Scripts
+.link
+  %a{:href => "https://bitbucket.org/ugorelik/joyblind-scripts/"} JOYBLIND Scripts
+  
+
+  
+%hr
+%h1.title C++
+
+:markdown
+  ## The Blob aka Dr. Rhodes
   The Blob was my 2010 group game development project. It was written from the ground up using C++ and DirectX.
-
-  Currently we're working on tweaking the game to make it more playable and enjoyable.
 
 = image("This is a screen shot of the blob game.", "blob.jpg", 100)
 
 .link
   %a{:href => "/files/Blob.zip"} Play it!
 .link
-  %a{:href => "/files/Blob Source.zip"} Source
+  %a{:href => "https://bitbucket.org/ugorelik/the-blob/src/f8b610b093e7/src"} Source
   
+:markdown
+  ## C++ Linux Battle Ship Implementation
+  This was a little BattleShip implementation which outputted to the terminal. It used raw sockets to enable multiplayer games. I did an "extended" version which added the feature to have multiple spectators watching a one versus one game.
+
+.link
+  %a{:href => "https://bitbucket.org/ugorelik/2404-mega-project/src/3ce747c9486a/src"} Source
+
+
+
+%hr
+%h1.title C#
+
+:markdown
+  ## Great Canadian Appathon 1
+  The GCA is a **48-hour** game development competition. I made a very avante-garde game, with hidden and subtle pretexts about a triangle battling through the oppressive red squares. The game had a tutorial, particle effects, custom gestures, combos and sound effects. This was my first time developing for Windows Phone 7, I had not looked into the framework before the competition.
+
+.link
+  %a{:href => "https://bitbucket.org/ugorelik/gca-1/src/00afb42bd13a/Scroller"} Source
+  
+:markdown
+  ## Great Canadian APpathon 2
+  For GCA 2 I decided to learn and use Unity. The game was the only 3D game at the Carleton"hub". The premise of game was a soccer ball navigating to the end of the level. The player would begin in what looked like a 2D level, but upon learning the controls the player would discover that the level is actually in three dimensions but only had access to two at one time. If the player would swipe left or right across the screen the camera would rotate 45 degrees about the x-axis, spin 90 degrees on z and then back 45 to change "dimensions".
+
+.link
+  %a{:href => "https://bitbucket.org/ugorelik/gca-2/src/ef8161876383/soccer/Assets"} Source
+.link
+  %a{:href => "https://bitbucket.org/ugorelik/gca-2/src/ef8161876383/MultiD%20Soccer.apk"} Download and Play the APK
+
+
+  
+%img{ :src => "/images/gca-2.png", :alt => "gca 2" }
+  
+
+%hr
+%h1.title Java
 
 
 :markdown
-  -----
+  
+  ## Stores
+  Stores is a solo project that I started recently. It's another Java based implementation, this time featuring an updater, saving and loading and throttling! What I mean by throttling is that it's focused to be a pacing game. Your first time playing will probably last about a minute or two but the idea is that, hopefully, you'll come back! 
 
-  # Java
+.link
+  %a{:href => "#"} Source (Coming soon)
+.link
+  %a{:href => "#{tumblr_url}"} The Blog
+
+:markdown
+  ------
   ## Data Structures
 
 
@@ -88,6 +141,18 @@
   * Self-updating.
 
 = image 'JOYBLIND Poster', 'poster-1.png', 100
+
+:markdown
+  ----
+  ## Project Ditch (Working Title)
+  Project Ditch is a Java text-based game. Kind of a throw back to retro gaming.
+
+  It features a parsing engine that allows for natural (like regular human speech) text to be entered and parsed correctly.
+
+  Future plans include porting the game to mobile platforms such as iOS, Android and Blackberry
+
+.link
+  %a{:href => "http://#{tumblr_url}"} The Blog
 
 
 :markdown
