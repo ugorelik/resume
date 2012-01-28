@@ -26,6 +26,17 @@ header
 	text-align: center;
 }
 
+footer
+{
+	width: 768px;
+	margin: 0 auto;
+}
+
+br
+{
+	padding-top: 20px;
+}
+
 p.link
 {
 	text-align:right;
