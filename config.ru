@@ -1,3 +1,3 @@
-require './hello.rb'
+require './resume.rb'
 
 run Sinatra::Application

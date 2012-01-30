@@ -40,7 +40,15 @@ helpers do
     @output
   end    
 
-  
+  def category title 
+		%@
+		<hr class="thick" />
+		<a name="#{title.downcase}">
+			<h1 class="title">#{title.capitalize}</h1>
+		</a>
+		<p class="top" ><a href="#top">Top</a></p>
+		@			
+	end
   
 end
 

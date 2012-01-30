@@ -44,6 +44,13 @@ p.link
 	padding:0;
 }
 
+p.top
+{
+	text-align:right;
+	position:relative;
+	bottom: 30px;
+}
+
 p
 {
 	line-height:1.2em;
@@ -81,6 +88,7 @@ p
 		display:inline-block;
 		position:relative;
 		top:7px;
+		left:32px;
 	}
 		#navigation table
 		{
@@ -90,8 +98,9 @@ p
 			}	
 				#navigation table tr td
 				{
-					padding-right:15px;
+					padding-right:57px;
 					text-decoration: none;
+					text-align:left;
 					font-size:2.1em;
 					line-height:80%;
 				}
@@ -186,6 +195,15 @@ table.fancy caption {
   margin-right: inherit;
 }
 
+table.category
+{
+	
+}
+
+table.category tr td
+{
+	padding-right: 20px;
+}
 
 #footer
 {
@@ -235,6 +253,12 @@ table.fancy caption {
 {
 	font-style:italic;
 	text-decoration:underline;
+}
+
+
+hr
+{
+	color: #ddd;
 }
 
 hr.thick

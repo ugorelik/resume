@@ -1,7 +1,14 @@
-%table
+%table.category
   %tr
     %td
-      %a{:href => "#Ruby"} Ruby
+      %a{:name => "top", :href => "#ruby"} Ruby
+    %td
+      %a{:href => "#c++"} C++
+    %td
+      %a{:href => "#c#"} C#
+    %td
+      %a{:href => "#java"} Java
+
 
 :markdown
 
@@ -16,8 +23,8 @@
 .link
   %a{:href => "http://joyblind.com"} JOYBLIND
 
-%hr.thick
-%h1.title{:title => "Ruby"} Ruby
+
+= category "ruby"
 
 :markdown
 
@@ -57,8 +64,7 @@
   
 
   
-%hr.thick
-%h1.title C++
+= category "c++"
 
 :markdown
   ## The Blob aka Dr. Rhodes
@@ -78,11 +84,10 @@
 
 .link
   %a{:href => "https://bitbucket.org/ugorelik/2404-mega-project/src/3ce747c9486a/src"} Source
-%hr
 
 
-%hr.thick
-%h1.title C#
+
+= category "c#"
 
 :markdown
   ## Great Canadian Appathon 1
@@ -90,6 +95,7 @@
 
 .link
   %a{:href => "https://bitbucket.org/ugorelik/gca-1/src/00afb42bd13a/Scroller"} Source
+%hr
   
 :markdown
   ## Great Canadian Appathon 2
@@ -104,9 +110,8 @@
 .link
   %a{:href => "https://bitbucket.org/ugorelik/gca-2/src/ef8161876383/MultiD%20Soccer.apk"} Download and Play the APK
 
-%hr.thick
-%h1.title Java
 
+= category "java"
 
 :markdown
   ## Stores
