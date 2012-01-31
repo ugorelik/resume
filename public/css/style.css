@@ -130,9 +130,9 @@ h1
 		color: #e0110e;
 		padding: 10px;
 		
-		-moz-box-shadow: 2px 2px 3px #888;
-		-webkit-box-shadow: 2px 2px 3px #888;
-		box-shadow: 2px 2px 3px #888;
+
+		border-style:solid;
+		border-width:2px;
 		
 		-moz-border-radius: 15px;
 		border-radius: 15px;
