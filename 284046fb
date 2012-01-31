@@ -10,29 +10,28 @@
   * Planned graduation year: 2014
 
   ## Availability
-  Available for a 4 month term starting Summer 2012.
+  Available for and 4 month term starting Summer 2012.
   
   -----
   
   ## HIGHLIGHTS OF QUALIFICATIONS/SKILLS PROFILE 
   
-  * Run JOYBLIND, a gaming website. Went to E3 2010 as press/media.
-  * Leadership skills via managing JOYBLIND and Mindtrust 2012.
-  * Multilingual. Fluent in French and English. Can speak Russian.
+  Run a gaming website. Went to E3 2010 as press/media.
   
-  ### Languages
-  Caveat: I'm a strong believer that a programmer is not defined by the languages he knows but rather what he has done with them.
+  Multilingual. Fluent in French and English. Can speak Russian.
+  
+  Knowledge of several computer language including:
 
 %table.skills-table
   %tr
     %td
-      %h4 Advanced
+      %h3 Advanced
     %td
-      %h4 Intermediate
+      %h3 Intermediate
     %td
-      %h4 Novice
+      %h3 Novice
     %td
-      %h4 Learning/Intersted
+      %h3 Learning/Intersted
   %tr
     %td Ruby
     %td Rails
@@ -67,13 +66,10 @@
     %td September 2011 - December 2011
 
 :markdown
-  * Part of the delivery team: oriented to aid other teams and deploy product.
   * Created DOM and SAX wrapper for APN management based off of libxml2 in C.
-  * Created suits to automate several of my tasks.
-  * Updated information resources, enabling team to have quick references.
-  * Many miscellaneous tasks.
+  * Handled several miscellaneous tasks.
+  * Updated information pages based on builds.
   
-
   -------
   
 %table
@@ -85,12 +81,27 @@
     %td May 2011 - September 2011
 
 :markdown
-  * Managed a suite of 11 tools ranging from different functionality.
-    * Radar sim., displays data recordings.
-    * Players used to stream data to radar sim.
+  * Software Developer.
+  * Manage and update programs used in Canadian flight towers.
   * Create tools on the fly for others and myself.
   * Bug hunter/slayer.
   
+  ------
+
+%table
+  %tr
+    %td.bold Editor in Chief, Head Coder, Webmaster
+  %tr
+    %td.italic_under JOYBLIND Media
+  %tr
+    %td November 2009 - Present
+    
+:markdown
+  * Developed layout of website from the ground up.
+  * Integrated several JavaScript functionalities (aesthetical and practical).
+  * Manage three writers/bloggers resulting in leadership skill acquisition.
+  * Created a Java based applications that facilitated the “posting” of new articles for non-html familiar users.
+  * Recognized by other members of the press and industry.
   ------
 
 %table
@@ -111,31 +122,14 @@
   * Helped test main company program “Merlin”. One of DragonWave’s main clients (Perl based)
 
   --------
-  
-%table
-  %tr
-    %td.bold Editor in Chief, Head Coder, Webmaster
-  %tr
-    %td.italic_under JOYBLIND Media
-  %tr
-    %td November 2009 - Present
-    
-:markdown
-  * Developed layout of website from the ground up.
-  * Integrated several JavaScript functionalities (aesthetical and practical).
-  * Manage four writers/bloggers resulting in leadership skill acquisition.
-  * Created a Java based applications that facilitated the “posting” of new articles for non-html familiar users.
-  * Recognized by other members of the press and industry.
-  
-  ------
 
+  ## CURRENT PROJECTS
+
+  See [Projects](/projects) and [Portfolio](/portfolio). 
+  
+  --------
 
   ## APPLIED PROJECTS
-  
-    See [Portfolio](/portfolio) for more. 
-
-  ### MDNotes
-  
 
   ###  Data Structures
 

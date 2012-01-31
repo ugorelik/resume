@@ -42,7 +42,7 @@ helpers do
 
   def category title 
 		%@
-		<hr class="thick" />
+		
 		<a name="#{title.downcase}">
 			<h1 class="title">#{title.capitalize}</h1>
 		</a>

@@ -2,6 +2,7 @@
 Awesome colours
 	Bright Green: 336699
 	Nice Blue: 336699
+	Link Red: e0110e
 	*/
 
 
@@ -56,10 +57,10 @@ p
 	line-height:1.2em;
 }
 
-	a:link {color:#e0110e;}      	/* unvisited link */
-	a:visited {color:#e0110e;}  	/* visited link */
-	a:hover {color:#3399ff;}  		/* mouse over link */
-	a:active {color:#3399ff;}  		/* selected link */
+a:link {color:#e0110e;}      	/* unvisited link */
+a:visited {color:#e0110e;}  	/* visited link */
+a:hover {color:#3399ff;}  		/* mouse over link */
+a:active {color:#3399ff;}  		/* selected link */
 
 #title
 {
@@ -124,6 +125,17 @@ h1
 	{
 		text-align:right; 
 		font-size:3.2em;
+		width:768px;
+		background-color: #E6E0DA;
+		color: #e0110e;
+		padding: 10px;
+		
+		-moz-box-shadow: 2px 2px 3px #888;
+		-webkit-box-shadow: 2px 2px 3px #888;
+		box-shadow: 2px 2px 3px #888;
+		
+		-moz-border-radius: 15px;
+		border-radius: 15px;
 	}
 
 
@@ -195,9 +207,21 @@ table.fancy caption {
   margin-right: inherit;
 }
 
+div.skills-table
+{
+	text-align: center;
+}
+
+table.skills-table
+{
+	width: inherit;
+	margin-left: 25px;
+}
+
 table.skills-table tr td
 {
-	padding-right: 30px;
+
+	padding-right: 70px;
 }
 
 table.category tr td
