@@ -29,7 +29,7 @@
       %h1#title
         %a(href='/')
           Welcome to Uri  
-      =haml :_navigation
+      =haml "partials/_navigation".to_sym
   
     #main-container
       -if @header != ""

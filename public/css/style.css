@@ -195,9 +195,9 @@ table.fancy caption {
   margin-right: inherit;
 }
 
-table.category
+table.skills-table tr td
 {
-	
+	padding-right: 30px;
 }
 
 table.category tr td
@@ -266,4 +266,16 @@ hr.thick
 	color: #000;
 	background-color: #000;
 	height: 3px;
+}
+
+.cover-letter
+{
+	width:600px;
+	background-color: #fff;
+	padding: 10px;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }

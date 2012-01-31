@@ -86,7 +86,7 @@ get '/pages' do
 end
 
 get '/pages/:title' do |title|
-	haml title.to_sym
+	haml "pages/#{title}".to_sym
 end
 
 get '/workterms' do
