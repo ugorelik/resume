@@ -1,8 +1,19 @@
 /*
 Awesome colours
 	Bright Green: 336699
-	Nice Blue: 336699
-	Link Red: e0110e
+	
+	Original Background: ffeedd
+	Original body: 336699
+	Original Blue: 3399ff
+	Original Light Blue : 4499ee
+	Original Red: e0110e
+	
+	
+	
+	New Background: fdf6e3
+	New Body: 586e75
+	New Blue: 268bd2
+	New Red:dc322f
 	*/
 
 
@@ -16,8 +27,9 @@ body
 {
 	font-family: helvetica, Arial;
 	font-size: %62.5;
-	background-color:#ffeedd;
-	color:#336699;
+	
+	background-color:#fdf6e3;
+	color:#586e75;
 }
 
 header
@@ -57,10 +69,10 @@ p
 	line-height:1.2em;
 }
 
-a:link {color:#e0110e;}      	/* unvisited link */
-a:visited {color:#e0110e;}  	/* visited link */
-a:hover {color:#3399ff;}  		/* mouse over link */
-a:active {color:#3399ff;}  		/* selected link */
+a:link {color:#dc322f;}      	/* unvisited link */
+a:visited {color:#dc322f;}  	/* visited link */
+a:hover {color:#268bd2;}  		/* mouse over link */
+a:active {color:#268bd2;}  		/* selected link */
 
 #title
 {
@@ -75,10 +87,12 @@ a:active {color:#3399ff;}  		/* selected link */
 	text-decoration:none;
 }
 
-#title a:link {color:#996633;}      	/* unvisited link */
-#title a:visited {color:#997733;}  		/* visited link */
-#title a:hover {color:#666633;}  		/* mouse over link */
-#title a:active {color:#666633;}  		/* selected link */
+#title a:link {color:#268bd2;}      	/* unvisited link */
+#title a:visited {color:#268bd2;}  		/* visited link */
+/*
+#title a:hover {color:#cb4b16;}  		
+#title a:active {color:#cb4b16;}  		
+*/
 	
 	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 	* 	Navigation
@@ -119,34 +133,35 @@ p
 
 h1
 {
-	color: #999;
+	color: #657b83;
 }
-	h1.title
-	{
-		text-align:right; 
-		font-size:3.2em;
-		width:768px;
-		background-color: #E6E0DA;
-		color: #e0110e;
-		padding: 10px;
-		
 
-		border-style:solid;
-		border-width:2px;
-		
-		-moz-border-radius: 15px;
-		border-radius: 15px;
-	}
+h1.title
+{
+	text-align:right; 
+	font-size:3.2em;
+	width:768px;
+	background-color: #eee8d5;
+	color: #dc322f;
+	padding: 10px;
+	
+
+	border-style:solid;
+	border-width:2px;
+	
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
 
 
 h2
 {
-	color: #4499ee;
+	color: #268bd2;
 }
 
 h3
 {
-	color: #4499ee;
+	color: #268bd2;
 }
 
 
@@ -254,7 +269,7 @@ table.category tr td
 				{
 					float:left;
 					padding-right:15px;
-					color:#3399ff;
+					color:#268bd2;
 				}
 
 
