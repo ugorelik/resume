@@ -21,13 +21,14 @@ Awesome colours
 {
 	width: 768px;
 	margin: 0 auto;
+	border-left-style:solid ;
+	padding-left: 15px;
 }
 
 body
 {
 	font-family: helvetica, Arial;
 	font-size: %62.5;
-	
 	background-color:#fdf6e3;
 	color:#586e75;
 }
