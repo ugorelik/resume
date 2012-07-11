@@ -320,7 +320,7 @@ hr.thick
 	border-radius: 15px;
 }
 
-@media all
+@media screen
 {
   .page-break  { display:none; }
   .resume-header, .resume-header div  {
