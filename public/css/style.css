@@ -319,3 +319,28 @@ hr.thick
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
+
+@media all
+{
+  .page-break  { display:none; }
+  .resume-header {
+  	display:none;
+  }
+}
+
+@media print
+{
+  .page-break  { display:block; page-break-before:always; }
+  .resume-header {
+  	display:block;
+  }
+
+  .resume-header div {
+  	text-align: center;
+  }
+
+  .resume-header div.title {
+  	font-weight: bold;
+  	font-size: 24px;
+  }
+}
