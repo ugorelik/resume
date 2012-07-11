@@ -323,7 +323,7 @@ hr.thick
 @media all
 {
   .page-break  { display:none; }
-  .resume-header {
+  .resume-header, .resume-header div  {
   	display:none;
   }
 }
